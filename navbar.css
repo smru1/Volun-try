@@ -1,0 +1,34 @@
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    background-color: #77DEEF;
+    height: 50px;
+  }
+  nav ul {
+
+  }
+  nav ul li {
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    border-right: 1px solid #CCC;
+    text-align: center;
+  }
+li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    display: block;
+  }
+li a:hover {
+  background-color: #FFFFFF;
+  color: #77DEEF;
+}
+h1 {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
