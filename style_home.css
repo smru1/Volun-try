@@ -162,3 +162,40 @@ fieldset {
   padding-bottom: 0px;
   height: 100px;
 }
+
+
+.socialbtn {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+
+}
+
+.socialbtn a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: #011627;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 22px;
+    cursor: pointer;
+}
+.socialbtn a:hover {
+    background: #E71D36;
+}
+
+.socialbtn a i {
+    transition: all 0.3s;
+}
+
+.socialbtn a:hover > i {
+    transform: scale(1.1);
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
