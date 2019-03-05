@@ -3,10 +3,10 @@ body,h1,h2,h3,h4,h5,h6 {
 .w3-bar-block .w3-bar-item {padding:20px}
 
 
-
-
-
-
+.w3-main w3-content w3-padding {
+  max-width:1200px;
+  margin-top:50px
+}
 
 .logo {
 display: block;
